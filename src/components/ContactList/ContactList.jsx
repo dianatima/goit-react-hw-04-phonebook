@@ -25,19 +25,3 @@ ContactList.propTypes = {
       })
     ),
 };
-  
-// export class ContactList extends Component {
-
-//     render() {
-//         return (
-//             this.props.contacts.map((contact) => {
-//                 return (
-//                     <ContactWrap key={contact.id}>
-//                         <p>{contact.name}: {contact.number}</p>
-//                         <button onClick={() => {this.props.removeHandler(contact.id)}}>Delete</button>
-//                     </ContactWrap>
-//                     )
-//                 })
-//        )
-//      }
-// }
